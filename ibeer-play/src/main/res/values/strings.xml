@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IbeerPlay</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="play_list">Get Play List</string>
+
+    <string name="title_activity_web">Registration</string>
+
+</resources>
