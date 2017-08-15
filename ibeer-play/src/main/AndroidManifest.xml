@@ -37,7 +37,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape"
+            />
         <activity
             android:name=".SettingActivity"
             android:label="@string/title_activity_setting"
@@ -70,6 +71,10 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/paths" />
         </provider>
+
+        <service android:name=".LogIntentService" />
+
+
 
     </application>
 
